@@ -13,3 +13,6 @@ You have to install pygame package for python with the following command: <code>
   <li><b>i : </b>Step by step process.</li>
   <li><b>r : </b>Reset screen and stop process.</li>
 </ul>
+
+# Other
+You can change the cell's size at line 9 : <code>CELL_SIZE = 10</code>.<br>The higher the number, the larger the cell.
