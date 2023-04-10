@@ -1,7 +1,7 @@
 # Conway's Game of Life
 The famous Conway's Game of Life
 
-# How to run
+# Get started
 You have to install pygame package for python with the following command: <code>pip install pygame</code> or <code>python3 -m pip install pygame</code><br>
 <link>https://pypi.org/project/pygame/</link>
 
