@@ -94,7 +94,7 @@ def get_black_cells_neighbors():
     For each black cell, computes the positions of its eight immediate neighbors based on the global `CELL_SIZE` value.
     Returns a list of tuples, each representing the (x, y) coordinates of a neighboring cell.
     Returns:
-        list of tuple: A list containing the (x, y) positions of all neighbors of the black cells.
+        list of tuple: A list containing the (x, y) positions of all neighbors of the black cells, with unique values.
     """
     
     neighbor_positions = []
@@ -110,7 +110,8 @@ def get_black_cells_neighbors():
             (x, y + CELL_SIZE),
             (x + CELL_SIZE, y + CELL_SIZE)
         ]
-    return neighbor_positions
+
+    return set(neighbor_positions)
 
 
 def iterate():
